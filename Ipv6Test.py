@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 import socket
-import subprocess
-yes = True
-a = 0
 
-while yes:
 remoteServer = raw_input("Enter a remote host to scan: ")
 
 if socket.has_ipv6:
