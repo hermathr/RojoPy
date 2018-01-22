@@ -16,5 +16,6 @@ Just clone the repository and have at it!
   cd RojoPy 
   
   
-  -Ronnie Johnson aka Hermathr
-  ronnie.johnson@sas.com
+  By: Ronnie Johnson aka Hermathr
+  
+  Email: ronnie.johnson@sas.com
