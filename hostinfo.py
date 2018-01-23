@@ -1,4 +1,4 @@
-    #!/usr/bin/env python
+#!/usr/bin/env python
 import socket
 import subprocess
 
@@ -6,9 +6,10 @@ import sys
 
 
 
+
 # Ask for input
 remoteServer = raw_input("Enter a remote host to scan: ")
-remoteServerIP = socket.gethostbyname(remoteServer)
+remoteServerIP = socket.remoteServer)
 remoteServerEx = socket.gethostbyname_ex(remoteServer)
 remoteok = True
 
@@ -22,7 +23,7 @@ try:
     for port in range(1, 1025):
         while remoteok:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            result = sock.connect_ex((remoteServerIP, port))
+            #result = sock.connect_ex((remoteServerIP, port))
             #if socket.has_ipv6 == 1:
             if socket.has_ipv6 == True:
                 print "supported"
